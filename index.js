@@ -90,12 +90,12 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(newFlavor, flavors){
+function addFlavor(flavors, newFlavor){
    flavors.unshift(newFlavor);
    return flavors;
 }
 
-addFlavor("Rainbow Sherbert", originalFlavors);
+addFlavor(originalFlavors, "Rainbow Sherbert");
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
