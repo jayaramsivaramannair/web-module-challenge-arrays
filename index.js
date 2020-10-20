@@ -90,9 +90,14 @@ Use the addFlavor function below to do the following:
 */
 
 
-function addFlavor(/*your code here*/){
-   /*your code here*/
+function addFlavor(newFlavor, flavors){
+   flavors.unshift(newFlavor);
+   return flavors;
 }
+
+console.log(addFlavor("Rainbow Sherbert", originalFlavors));
+
+
 
 
 /* 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 4: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀
