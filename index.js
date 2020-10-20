@@ -45,12 +45,15 @@ Use the copy function below to do the following:
     2. Return a copy of the received array  
 */
 
-function copy(/*your code here*/){
-    /*your code here*/
+function copy(original){
+    let copy = [];
+    for(let i = 0; i < original.length; i++) {
+        copy.push(original[i]);
+    }
+    return copy;
 }    
 
-
-
+let copyFlavors = copy(originalFlavors);
 
 
 /*🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 Task 2: 🚀🚀🚀🚀🚀🚀🚀🚀🚀🚀 
